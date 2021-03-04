@@ -63,9 +63,10 @@ header {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  background: #a80077;
-  background: -webkit-linear-gradient(to right, #66ff00, #a80077);
-  background: linear-gradient(to right, #66ff00, #a80077);
+  background: #141e30;
+  background: -webkit-linear-gradient(to left, #243b55, #141e30);
+  background: linear-gradient(to left, #243b55, #141e30);
+
   padding: 1rem 3rem;
   border: none;
   border-radius: 5px;
