@@ -287,6 +287,7 @@ header {
 .projetos {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 1rem;
 }
 .card {
   width: 18rem;
@@ -374,13 +375,13 @@ header {
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 .contato-left {
-  width: 35%;
+  width: 40%;
   background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
     url(img/bg-contato.jpg);
   background-size: cover;
 }
 .contato-right {
-  width: 65%;
+  width: 60%;
   background-color: #eee;
   padding: 1rem 3rem 3rem 3rem;
 }
@@ -578,5 +579,14 @@ margin: 0 auto;
   .sessao-orcamento h1 {
     padding: 0 2rem;
     font-size: 2rem;
+  }
+  .card-info {
+    padding: 2rem 6rem;
+  }
+  .contato-left{
+    width: 0%;
+  }
+  .contato-right{
+    width: 100%;
   }
 }
