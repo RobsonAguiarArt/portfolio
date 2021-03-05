@@ -283,6 +283,7 @@ header {
   object-fit: cover;
   width: 80%;
 }
+
 .projetos {
   display: flex;
   justify-content: space-evenly;
@@ -306,7 +307,7 @@ header {
   opacity: 0.8;
   transition: opacity 0.3s;
 }
-.card:hover .card-img-wrapper imgs {
+.card:hover .card-img-wrapper img {
   opacity: 0.5;
 }
 .card-info {
@@ -540,4 +541,42 @@ footer {
   align-items: center;
   border-radius: 0.3rem;
   box-shadow: 0 0.1rem 0.6rem #00000009;
+}
+@media screen and (max-width:1028px){
+  .conhecimento-img-wrapper img{
+    width: 100%;
+  }
+  .orcamento-wrapper {
+    width: 70%;
+    height: 50%;
+  }
+  .conhecimentos{
+display:flex;
+flex-wrap: wrap;
+max-width: 30rem;
+margin: 0 auto;
+  }
+  .projetos {
+    display-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+  .conhecimento-header {
+    display: flex;
+    align-items: center;
+    color: #243b55;
+    padding: 1rem 0;
+  }
+ 
+}
+@media screen and (max-width:900px){
+  .sessao-orcamento h1 {
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
 }
