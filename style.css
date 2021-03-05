@@ -544,51 +544,15 @@ footer {
   box-shadow: 0 0.1rem 0.6rem #00000009;
 }
 @media screen and (max-width:1028px){
-  .conhecimento-img-wrapper img{
-    width: 100%;
-  }
-  .orcamento-wrapper {
-    width: 70%;
-    height: 50%;
-  }
-  .conhecimentos{
-display:flex;
-flex-wrap: wrap;
-max-width: 30rem;
-margin: 0 auto;
-  }
-  .projetos {
-    display-flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 30rem;
-    height: 30rem;
-    padding: 1rem;
-  }
-  .conhecimento-header {
-    display: flex;
-    align-items: center;
-    color: #243b55;
-    padding: 1rem 0;
-  }
- 
-}
-@media screen and (max-width:900px){
 
-  .sessao-orcamento h1 {
-    padding: 0 2rem;
-    font-size: 2rem;
-  }
-  .card-info {
-    padding: 2rem 6rem;
-  }
+  
+  
  
-  .contato-right{
-    width: 100%;
-  }
+ 
 }
+
+ 
+
 @media screen and (max-width:728px){
 .content{
   display: flex;
@@ -597,8 +561,20 @@ margin: 0 auto;
 }
 
 .field {
-  width: 10rem;
+  width: 15rem;
   font-size: 1rem;
+}
+.conhecimento-header {
+  display: flex;
+  align-items: center;
+  color: #243b55;
+  padding: 1rem 0;
+}
+
+.projetos {
+  
+  flex-direction: column;
+  align-items: center;
 }
 .card {
   width: 16rem;
@@ -642,6 +618,13 @@ margin: 0 auto;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
+.contato-wrapper {
+  width: 90%;
+  height: 30rem;
+  display: flex;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+
 
 
 
