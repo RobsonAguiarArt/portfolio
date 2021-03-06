@@ -1,8 +1,26 @@
-;
 
- document.querySelector(".hamburguer").addEventListener("click", ()=>
+
+   document.querySelector(".hamburguer").addEventListener("click", ()=>
    document.querySelector(".container").classList.toggle("show-menu")
 );
+document.querySelector(".m1").addEventListener("click", ()=>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+document.querySelector(".m2").addEventListener("click", ()=>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+document.querySelector(".m3").addEventListener("click", ()=>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+document.querySelector(".m4").addEventListener("click", ()=>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+document.querySelector(".m5").addEventListener("click", ()=>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+
+
+
 document.querySelector("#qtde").addEventListener("change", atualizarPreco)
 document.querySelector("#js").addEventListener("change", atualizarPreco)
 document.querySelector("#layout-sim").addEventListener("change", atualizarPreco)
